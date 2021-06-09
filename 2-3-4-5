@@ -1,0 +1,84 @@
+#include <stdio.h>
+#include<conio.h>
+
+// For conditional
+void conditional(void);
+
+// For arithmatic
+void arithmatic(void);
+
+
+int main()
+{
+    int ch;
+    
+    while (1)
+    {
+    printf("\n Which program do u want to see. \n 1. Using conditional operator \n 2. Using arithmatic operator \n 3. Exit");
+    printf("Enter your choice(1/2/3):");
+    scanf("%d",&ch);
+    if(ch==1)
+    {
+        conditional();
+    }
+    
+    else if(ch==2)
+    {
+        arithmatic();
+    }
+    
+    else if(ch==3)
+    {
+        break;
+    }
+    else
+        printf("Enter correct choice");
+    }
+    return 0;
+}
+
+void conditional()
+{
+    int age;
+    printf("Enter your age:\n");
+    scanf("%d",&age);
+    age>=18? printf("You are eligible for voting") : printf("You aren't eligible for voting");
+}
+
+void arithmatic()
+{
+    int cho,a,b,c;
+    printf("Menu for basic operations\n 1. Addition \n 2. Substraction \n 3.Multiplication \n 4. Division");
+    printf("\nEnter your choice:");
+    scanf("%d",&cho);
+    switch (cho)
+    {
+        case 1:
+            printf("Enter two numbers:");
+            scanf("%d%d",&a,&b);
+            c=a+b;
+            printf("%d", c);
+            break;
+        
+        case 2:
+            printf("Enter two numbers:");
+            scanf("%d%d",&a,&b);
+            c=a-b;
+            printf("%d", c);
+            break;
+        case 3:
+            printf("Enter two numbers:");
+            scanf("%d%d",&a,&b);
+            c=a*b;
+            printf("%d", c);
+            break;
+            
+        case 4:
+            printf("Enter two numbers:");
+            scanf("%d%d",&a,&b);
+            c=a/b;
+            printf("%d", c);
+            break;
+    }
+    
+}
