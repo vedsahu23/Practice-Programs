@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<conio.h>
+
+
+int fact(int n)
+{
+    if (n==0 || n==1)
+        return 1;
+    else
+        return n*fact(n-1);
+}
+int main() 
+{ 
+    printf("Program to print factorial of a number using recursion.\n");
+    int num, f;
+    printf("Enter the number:");
+    scanf("%d", &num);
+    if (num<0)
+        printf("NA");
+    else
+    {    
+    f=fact(num);
+    printf("%d",f);
+    }
+}
