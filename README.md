@@ -2,22 +2,33 @@
 Practice-Programs
 </h1>
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fnareshit.com%2Fc-language-online-training%2F&psig=AOvVaw1RuUO3tMXW1YUzWzfKGKnO&ust=1624171165108000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMCL9J-Lo_ECFQAAAAAdAAAAABAD)
+**Language Used:- C**
+
+**Programmer: VED SAHU**
+
+![image](https://user-images.githubusercontent.com/84853993/122645816-edeceb00-d139-11eb-84bc-00b633ebe1ec.png)
+
+___
+
 
 ## This repository contains programs related to basic concepts of C programming language such as:-
-### Practical based on arithmetic and conditional operators.
+### _1.Practical based on arithmetic and conditional operators._
 
 
-### Practical based on conditional and unconditional statements.
+### _2.Practical based on conditional and unconditional statements._
 
 
-### Practical based on looping statement.
+### _3.Practical based on looping statement._
 
 
-### Practical based on functions and recursions.
+### _4.Practical based on functions and recursions._
 
 
-### Practical based on 1-D and 2-D array.
+### _5.Practical based on 1-D and 2-D array._
 
 
-### Practical based on strings and pointers.
+### _6.Practical based on strings and pointers._
+___
+
+![image](https://user-images.githubusercontent.com/84853993/122646019-dd894000-d13a-11eb-92b5-aea529cfdc2a.png)
+
