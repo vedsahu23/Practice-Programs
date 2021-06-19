@@ -1,4 +1,4 @@
-# Practice-Programs
+# **Practice-Programs**
 ## This repository contains programs related to basic concepts of C programming language such as:-
 ### Practical based on arithmetic and conditional operators.
 ### Practical based on conditional and unconditional statements.
